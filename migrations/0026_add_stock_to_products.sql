@@ -1,0 +1,2 @@
+-- Migration number: 0026 	 2024-04-05T00:00:00.000Z
+ALTER TABLE products ADD COLUMN stock INTEGER DEFAULT 0;

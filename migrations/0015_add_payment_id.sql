@@ -1,0 +1,2 @@
+-- Migration already applied
+-- INSERT INTO orders (payment_id) ... already done

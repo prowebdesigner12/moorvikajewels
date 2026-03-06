@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GT-TBV4L8VX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'GT-TBV4L8VX');
+  </script>
+  <title>Moorvika Jewels | Exquisite Handcrafted Indian Jewelry</title>
+  <meta name="description"
+    content="Discover exquisite handcrafted Kundan, Polki & Bridal jewelry at Moorvika Jewels. Premium mangalsutras, choker sets, earrings & more. Free shipping on orders over ₹999." />
+  <meta name="author" content="Moorvika Jewels" />
+  <meta name="keywords"
+    content="jewelry, indian jewelry, kundan jewelry, polki jewelry, bridal jewelry, mangalsutra, choker necklace, earrings, moorvika jewels" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Moorvika Jewels | Exquisite Handcrafted Indian Jewelry" />
+  <meta property="og:description"
+    content="Shop premium handcrafted Kundan, Polki & Bridal jewelry. Elegant mangalsutras, choker sets & earrings for every occasion." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.jpg" />
+  <meta property="og:url" content="https://shop.prasantbagriya.online" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Moorvika Jewels | Handcrafted Indian Jewelry" />
+  <meta name="twitter:description"
+    content="Exquisite Kundan & Polki jewelry for weddings, festivals & special occasions. Shop now at Moorvika Jewels." />
+  <meta name="twitter:image" content="/og-image.jpg" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#8B6914">
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1522385098990855');
+    fbq('track', 'PageView');
+  </script>
+  <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1522385098990855&ev=PageView&noscript=1" />
+  </noscript>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(req => console.log('SW registered'))
+          .catch(err => console.log('SW failed', err));
+      });
+    }
+  </script>
+</body>
+
+</html>

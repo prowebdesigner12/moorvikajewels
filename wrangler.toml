@@ -1,0 +1,18 @@
+name = "shophub"
+compatibility_date = "2024-04-05"
+pages_build_output_dir = "dist"
+
+# D1 Database Binding
+[[d1_databases]]
+binding = "DB"
+database_name = "topstore-db"
+database_id = "89c2af86-82cb-4242-8e65-a51655bfd31e" # Will be updated after creation
+
+# R2 Bucket Binding
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "topstore-images"
+
+# Local Development
+[dev]
+port = 8788

@@ -1,0 +1,11 @@
+/tools/ /tools/index.html 200
+/tools/sip-calculator /tools/sip-calculator/index.html 200
+/tools/emi-calculator /tools/emi-calculator/index.html 200
+/tools/compound-interest-calculator /tools/compound-interest-calculator/index.html 200
+/tools/gst-calculator /tools/gst-calculator/index.html 200
+/tools/prop-firm /tools/prop-firm/index.html 200
+/tools/trading-consistency-calculator /tools/trading-consistency-calculator/index.html 200
+/tools/:tool/index.html /tools/:tool/index.html 200
+
+/tools/privacy /tools/privacy/index.html 200
+/tools/terms /tools/terms/index.html 200

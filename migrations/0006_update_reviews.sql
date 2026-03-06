@@ -1,0 +1,2 @@
+-- Migration already applied
+-- ALTER TABLE reviews ADD COLUMN customer_email TEXT;
